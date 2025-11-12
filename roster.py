@@ -1,4 +1,6 @@
-roster = ['High', 'Cadeau', 'Trimble', 'Ingram', 'Ryan', 'Davis', 'Bacot', 'Wojcik', 'Washington', 'Lebo']
+# https://goheels.com/sports/mens-basketball/roster/2023-24
+import pandas as pd
 
-for player in roster:
-    print(player)
+roster = ['High', 'Cadeau', 'Trimble', 'Ingram', 'Ryan', 'Davis', 'Bacot', 'Wojcik', 'Washington', 'Lebo']
+data = pd.DataFrame(roster)
+print(data)
